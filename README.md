@@ -4,3 +4,4 @@ Events Manager Application which allows its users to register for the events lis
 This also allows user authentication and user unique identification too.
 ## Local Development 
 This is the new line which will be added in the repo using branching. Check this out.
+This is the new line which will be added in the repo using branching. This line should be added and then deleted.
