@@ -1,0 +1,2 @@
+rootProject.name='Event Organiser'
+include ':app'
