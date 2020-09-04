@@ -34,16 +34,17 @@
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="240dp"
+                android:layout_marginTop="220dp"
+                android:text="m@gmail.com"
                 android:background="@drawable/edittext_background"
+                android:drawableStart="@drawable/email"
                 android:drawableLeft="@drawable/email"
                 android:hint="Enter Email Id"
                 android:padding="20sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.491"
+                app:layout_constraintHorizontal_bias="0.524"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                android:drawableStart="@drawable/email" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <EditText
                 android:id="@+id/passmain"
@@ -51,20 +52,21 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="15dp"
+                android:text="123456"
                 android:layout_marginBottom="80dp"
                 android:background="@drawable/edittext_background"
                 android:drawableStart="@drawable/password"
                 android:drawableLeft="@drawable/password"
                 android:hint="Password"
                 android:padding="20sp"
-                app:layout_constraintBottom_toTopOf="@+id/login"
+                app:layout_constraintBottom_toTopOf="@+id/loginbtn"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.491"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/emailidmain" />
 
             <Button
-                android:id="@+id/login"
+                android:id="@+id/loginbtn"
                 android:layout_width="350dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
@@ -89,7 +91,7 @@
                 android:textSize="15sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/login" />
+                app:layout_constraintTop_toBottomOf="@+id/loginbtn" />
 
             <TextView
                 android:id="@+id/newcustomer"

@@ -5,11 +5,10 @@
     android:layout_height="match_parent"
     tools:context=".AllEvents">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view_all_events"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:padding="10sp"
-        android:text="@string/hello_blank_fragment" />
+        android:backgroundTint="@android:color/darker_gray"
+        android:layout_height="match_parent" />
 
 </FrameLayout>

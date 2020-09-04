@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "709010201198",
+    "firebase_url": "https://authenticateme-f5289.firebaseio.com",
+    "project_id": "authenticateme-f5289",
+    "storage_bucket": "authenticateme-f5289.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:709010201198:android:f0fe1e8cd14384b18ae47f",
+        "android_client_info": {
+          "package_name": "com.example.eventorganiser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "709010201198-8nc0q992ukjuumjacjfli6p6e3hvaceh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxFM81pyoinjeZRZewnRXsiCm2zseVNKg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "709010201198-8nc0q992ukjuumjacjfli6p6e3hvaceh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
